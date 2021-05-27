@@ -46,7 +46,7 @@ class Owner
   end
 
   def feed_cats 
-    
+
   end
   # code goes here
 end

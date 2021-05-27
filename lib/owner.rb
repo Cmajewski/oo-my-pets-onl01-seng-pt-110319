@@ -37,6 +37,6 @@ class Owner
     Cat.new(name,self)
   end
 
-  
+
   # code goes here
 end

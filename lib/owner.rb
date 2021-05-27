@@ -43,7 +43,7 @@ class Owner
 
   def walk_dogs
     Dog.all.each do |dog|
-      dog.owner==self? dog.mood="happy" : nil
+      dog.owner==self ? dog.mood="happy" : nil
     end
   end
   # code goes here

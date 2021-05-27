@@ -42,9 +42,7 @@ class Owner
   end
 
   def walk_dogs
-    Dog.all.each do |dog|
-      dog.owner==self ? dog.mood="happy" : nil
-    end
+    self.sogs.each{|dog| dog.mood="happy"}
   end
   # code goes here
 end
